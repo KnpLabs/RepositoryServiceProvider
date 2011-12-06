@@ -1,11 +1,11 @@
 <?php
 
-namespace Knp\Provider\Service;
+namespace Knp\Provider;
 
 use Silex\ServiceProviderInterface;
 use Silex\Application;
 
-class Repository implements ServiceProviderInterface
+class RepositoryServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {

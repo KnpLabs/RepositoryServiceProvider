@@ -18,7 +18,7 @@ Add the the repository to your dependencies, then register the autoload:
 Register the service provider:
 
     $app->register(
-        new Knp\Provider\Service\Repository(), array(
+        new Knp\Provider\RepositoryServiceProvider(), array(
             'repository.repositories' => array(
                 'projects' => 'MyProject\Repository\Project',
             )
