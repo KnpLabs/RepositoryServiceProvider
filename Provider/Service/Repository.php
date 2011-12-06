@@ -1,6 +1,6 @@
 <?php
 
-namespace KnpLabs\Provider\Service;
+namespace Knp\Provider\Service;
 
 use Silex\ServiceProviderInterface;
 use Silex\Application;

@@ -1,6 +1,6 @@
 <?php
 
-namespace KnpLabs;
+namespace Knp;
 
 use Doctrine\DBAL\Connection;
 
