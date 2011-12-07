@@ -96,4 +96,4 @@ Extending a repository is as easy as adding methods to it. For example, you coul
 ## Credits
 
 * [KnpLabs](http://knplabs.com/) for original code
-* [joshuamorse](https://github.com/joshuamorse/) for initial code extraction
+* [Joshua Morse](https://github.com/joshuamorse/) for initial code extraction
