@@ -11,7 +11,7 @@ class RepositoryServiceProvider implements ServiceProviderInterface
     {
         $app->before(function() use ($app) {
             foreach ($app['repository.repositories'] as $label => $class) {
-                $app[$label] = $app->share(function() use ($class, $app) {
+                $app[$label] = $app->share(function($app) use ($class) {
                     return new $class($app['db']); 
                 });
             }
