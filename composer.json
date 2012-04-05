@@ -1,0 +1,27 @@
+{
+    "name": "knplabs/silex-extensions",
+    "type": "library",
+    "description": "Doctrine repository service provider for Silex",
+    "keywords": [
+        "doctrine2",
+        "silex",
+        "repository"
+    ],
+    "homepage": "http://knplabs.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "Knplabs",
+            "homepage": "http://knplabs.com"
+        }
+    ],
+    "require": {
+        "php":              ">=5.3.2",
+        "doctrine/dbal":    ">=2.1, <2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Knp\\": ""
+        }
+    }
+}
