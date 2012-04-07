@@ -1,17 +1,13 @@
 {
-    "name": "knplabs/silex-extensions",
+    "name": "knplabs/repository-service-provider",
     "type": "library",
     "description": "Doctrine repository service provider for Silex",
-    "keywords": [
-        "doctrine2",
-        "silex",
-        "repository"
-    ],
+    "keywords": [ "doctrine2", "silex", "repository" ],
     "homepage": "http://knplabs.com",
     "license": "MIT",
     "authors": [
         {
-            "name":     "Knplabs",
+            "name":     "KnpLabs",
             "homepage": "http://knplabs.com"
         }
     ],
