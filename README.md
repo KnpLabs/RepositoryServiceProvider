@@ -8,7 +8,7 @@ This service provider has ben built to work with the `DoctrineServiceProvider` s
 
 ## Configuration
 
-Add the the repository to your dependencies, then register the autoload:
+Add the repository to your dependencies, then register the autoload:
 
     $app['autoloader']->registerNamespaces(array(
         /** Your other namespaces **/
